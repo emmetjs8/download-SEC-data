@@ -1,0 +1,24 @@
+For sec information
+
+Information on various SEC forms:
+https://www.sec.gov/search-filings/edgar-search-assistance/using-edgar-research-investments
+
+Information and links to datasets for investment companies:
+https://www.sec.gov/about/opendatasetsshtmlinvestment_company#:~:text=Class%20ID,C%22%20followed%20by%20nine%20digits. 
+
+Information about all of Edgar:
+https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+
+Information on RESTFUL api:
+https://www.sec.gov/search-filings/edgar-application-programming-interfaces 
+
+Links to company information:
+companiesUrlJson = 'https://www.sec.gov/files/company_tickers.json' (Has name, cik, and ticker)
+companiesExchangeUrlJson = 'https://www.sec.gov/files/company_tickers_exchange.json' (Has cik, name, ticker, and exchange stock is traded on)
+
+allCiks = 'https://www.sec.gov/Archives/edgar/cik-lookup-data.txt'
+Note that this list includes funds and individuals and is historically cumulative for company names. 
+Thus a given CIK may be associated with multiple names in the case of company or fund name changes, 
+and the list contains some entities that no longer file with the SEC.
+
+fundCiks = 'https://www.sec.gov/files/company_tickers_mf.json' (fund CIK, series, class, ticker)
